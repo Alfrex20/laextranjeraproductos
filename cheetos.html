@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Extranjera Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="laextranjera2.png">
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="laextranjera2.png" alt="Icono de la Extranjera"></a>
+            <h1>LA EXTRANJERA</h1>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <input type="checkbox" id="menu-toggle-checkbox">
+                <label for="menu-toggle-checkbox" class="menu-icon">&#9776;</label>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Promociones.html">Promociones</a></li>
+                    <li><a href="Marcas.html">Marcas</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="productos">
+            <h1><a href="index.html" class="RegresarProducto">Inicio</a>/Sabritas</h1>
+            <div class="Imagenproducto" id="imagen1">
+                <img src="Recursos/sabritas1.jpg" alt="" class="imagen-zoom" onclick="mostrarImagen(this)">
+            </div>
+            <div class="DescripcionProducto">
+                <div class="descripcion">
+                    <p class="Titulo">Cheetos Flamin´Hot Limón</p>
+                    <p class="Marca">Marca: <a href="https://www.cheetos.com/es/productos/cheetos-flamin-hot-crocantes-de-lim-n-bocadillos-sabor-queso" target="_blank"><span class="marca-azul">Frito Lay</span></a></p>
+                    <p class="Precio">$160.00 MXN/$9.48 USD</p>
+                    <p>*VENTA INDIVIDUAL/BOLSA GRANDE*</p>
+                    <p>Los CHEETOS® FLAMIN' HOT® crocantes de limón, bocadillos sabor a queso, están llenos de sabor y hechos con queso de verdad.</p>
+                    <div class="imagenes-contenedor">
+                      <img src="Imagenes Descripciones/cheetos1.png" alt=""class="imagen-zoom" onclick="mostrarImagen(this)">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>                    
+      <footer>
+        <div class="redes-sociales">
+            <h2>Productos</h2>
+            <p class="predes">Recuerda que si tienes alguna duda sobre algun producto en específico puedes contactarnos directamente 🤗</p>
+            <p>ㅤ</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
